@@ -1,33 +1,77 @@
 # -project
-  ### Project Title: CS50 Shirtificate Generator
-    ### Video Demo:  <URL HERE>
-    ### Description:
-The CS50 Shirtificate Generator is a Python program that generates a personalized "shirtificate" PDF for users. The shirtificate features the user's name and the number of minutes they have been alive, presented in a stylized format. This project utilizes the `fpdf2` library for PDF creation and the `datetime` module to calculate the user's age in minutes.
+### **NAME** : **ZULU CHARLTON SHALLOCK**
+### **GITHUB USERNAME** : **22MH1A0316**
+### **EdX USERNAME**: **ZULU CHARLTON S**
+### **CITY** : **KAKINADA**
+### **COUNTRY** : **INDIA**
+### **DATE** : **07-JUNE-2022**
+### Project Title: CUSTOMIZED SHIRTIFICATE GENERATPOR
+### Video Demo:  <URL HERE>
+### Description:
+_____
+The " Customized Shirtificate Generator" is a Python project designed to generate a customizable "shirtificate" PDF. This PDF includes an image of a t-shirt with the text "I took CS50", customized with the user's name and a custom message. The project leverages the `fpdf2` library to create the PDF and allows users to specify their name and message, which will be embedded into the PDF at designated locations.
 
-#### Features:
-- **User Input**: Prompts the user to enter their name and date of birth.
-- **Age Calculation**: Calculates the user's age in minutes, considering leap years and the exact date.
-- **Number to Words Conversion**: Converts the calculated age in minutes to its English word representation.
-- **PDF Generation**: Creates a PDF with a customized shirt image and the user's name and age in words, centered and styled appropriately.
+### Features:
+- **Customizable Name and Message:** Users can input their name and a custom message, both of which will be displayed on the PDF.
+- **PDF Generation:** The project creates a high-quality PDF with the specified details.
+- **Configuration:** Easy configuration of font and title through a JSON configuration file.
+- **Testing:** Comprehensive testing of core functions using `pytest`.
 
-#### Project Structure:
-- **project.py**: Contains the main function and other core functions for age calculation, number to words conversion, and PDF generation.
-- **test_project.py**: Includes test functions to ensure the correctness of the core functions using pytest.
-- **requirements.txt**: Lists the required Python libraries for the project.
+### Project Structure:
 
+```
+Shirtificate-Generator/
+│
+├── project.py
+├── test_project.py
+├── requirements.txt
+├── config.json
+├── shirtificate.png
+└── README.md
+```
 
-#### Usage:
-1. **Run the Program**: Execute `project.py` to generate a personalized shirtificate.
-   ```
-   python project.py
-   ```
-2. **Tests**: Run the test suite to ensure the core functions are working correctly.
-   ```
-   pytest test_project.py
-   ```
+### Files and Their Purpose:
 
-#### Requirements:
-- Python 3.x
-- fpdf2 library
+- **project.py:** Contains the main function and the core functionalities for loading configurations, validating input, and creating the PDF.
+- **test_project.py:** Contains the test functions to validate the correctness of the core functionalities using `pytest`.
+- **requirements.txt:** Lists all the dependencies required for the project.
+- **config.json:** Configuration file to specify settings like font and title for the PDF.
+- **shirtificate.png:** Image of the t-shirt used in the PDF.
+- **README.md:** Provides an overview of the project, setup instructions, and usage guidelines.
+
+### Usage:
+
+1. **Setup:**
+   - Install the required dependencies:
+     ```sh
+     pip install -r requirements.txt
+     ```
+
+2. **Run the Main Program:**
+   - Execute the following command to run the program:
+     ```sh
+     python project.py
+     ```
+
+3. **Testing:**
+   - Run the tests to ensure everything is working correctly:
+     ```sh
+     pytest test_project.py
+     ```
+
+4. **Configuration:**
+   - Modify the `config.json` file to change the font and title settings for the PDF.
+
+### Example Workflow:
+
+1. The user runs the `project.py` script.
+2. The script prompts the user to enter their name and a custom message.
+3. The script validates the inputs and creates a PDF with the user's name and message displayed on a t-shirt image.
+4. The generated PDF is saved with the filename format `shirtificate_<name>.pdf`.
+5. The user can then open and view their personalized "shirtificate".
+
+This project ensures that the process of creating a customized certificate is simple, efficient, and thoroughly tested for reliability.
+_______
+
 
 
