@@ -6,7 +6,7 @@
 ### **COUNTRY** : **INDIA**
 ### **DATE** : **07-JUNE-2024**
 ### Project Title: CUSTOMIZED SHIRTIFICATE GENERATOR
-### Video Demo:  <URL HERE>
+### Video Demo:  <https://youtu.be/Dxs6O7FLMmY>
 ### Description:
 _____
 The " Customized Shirtificate Generator" is a Python project designed to generate a customizable "shirtificate" PDF. This PDF includes an image of a t-shirt with the  customized user's name and a custom message. The project leverages the `fpdf2` library to create the PDF and allows users to specify their name and message, which will be embedded into the PDF at designated locations.
