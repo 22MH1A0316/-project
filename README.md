@@ -1,7 +1,7 @@
 # -project
   ### Project Title: CS50 Shirtificate Generator
-    #### Video Demo:  <URL HERE>
-    #### Description:
+    ### Video Demo:  <URL HERE>
+    ### Description:
 The CS50 Shirtificate Generator is a Python program that generates a personalized "shirtificate" PDF for users. The shirtificate features the user's name and the number of minutes they have been alive, presented in a stylized format. This project utilizes the `fpdf2` library for PDF creation and the `datetime` module to calculate the user's age in minutes.
 
 #### Features:
