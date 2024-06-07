@@ -1,7 +1,7 @@
 # -project
 ### **NAME** : **ZULU CHARLTON SHALLOCK**
 ### **GITHUB USERNAME** : **22MH1A0316**
-### **EdX USERNAME**: **ZULU CHARLTON S**
+### **EdX USERNAME**: **22MH1A0316**
 ### **CITY** : **KAKINADA**
 ### **COUNTRY** : **INDIA**
 ### **DATE** : **07-JUNE-2024**
