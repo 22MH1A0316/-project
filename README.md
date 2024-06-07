@@ -4,12 +4,12 @@
 ### **EdX USERNAME**: **ZULU CHARLTON S**
 ### **CITY** : **KAKINADA**
 ### **COUNTRY** : **INDIA**
-### **DATE** : **07-JUNE-2022**
-### Project Title: CUSTOMIZED SHIRTIFICATE GENERATPOR
+### **DATE** : **07-JUNE-2024**
+### Project Title: CUSTOMIZED SHIRTIFICATE GENERATOR
 ### Video Demo:  <URL HERE>
 ### Description:
 _____
-The " Customized Shirtificate Generator" is a Python project designed to generate a customizable "shirtificate" PDF. This PDF includes an image of a t-shirt with the text "I took CS50", customized with the user's name and a custom message. The project leverages the `fpdf2` library to create the PDF and allows users to specify their name and message, which will be embedded into the PDF at designated locations.
+The " Customized Shirtificate Generator" is a Python project designed to generate a customizable "shirtificate" PDF. This PDF includes an image of a t-shirt with the  customized with the user's name and a custom message. The project leverages the `fpdf2` library to create the PDF and allows users to specify their name and message, which will be embedded into the PDF at designated locations.
 
 ### Features:
 - **Customizable Name and Message:** Users can input their name and a custom message, both of which will be displayed on the PDF.
