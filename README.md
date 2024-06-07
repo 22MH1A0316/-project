@@ -73,5 +73,7 @@ Shirtificate-Generator/
 This project ensures that the process of creating a customized certificate is simple, efficient, and thoroughly tested for reliability.
 _______
 
+submit50 cs50/problems/2022/python/project
+
 
 
